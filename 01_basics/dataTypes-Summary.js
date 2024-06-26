@@ -26,8 +26,19 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof myObj);
-console.log(typeof myFunction);
-console.log(typeof anotherId);
+// console.log(typeof myObj);
+// console.log(typeof myFunction);
+// console.log(typeof anotherId);
+
+// ++++++++++++++++++++++++++++++++//
 
 
+//stack (primitive), Heap (Non-primitive)
+// stack holds primitive values but heap stores non-primitive values
+
+let myYoutubename ="lehsun"
+let anotherName = myYoutubename;
+anotherName = "Chaiorcode";
+
+console.log(myYoutubename);
+console.log(anotherName);
