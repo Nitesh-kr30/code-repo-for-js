@@ -9,3 +9,14 @@ let isLoggedIn = false
 
 console.log(typeof undefined)
 console.log(typeof null);
+let isLoggedIn1 = "hitesh"
+
+let booleanIsLoggedIn = Boolean(isLoggedIn1)
+//console.log(booleanIsLoggedIn);
+
+// 1 => true; o => false
+// "" => false
+// "hitesh" => true
+
+let someNumber = 33
+let stringNumber = String(someNumber)
